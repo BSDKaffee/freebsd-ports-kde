@@ -4129,9 +4129,9 @@
     SUBDIR += pkg-info.el
     SUBDIR += pkgconf
     SUBDIR += plan9port
-    SUBDIR += plasma5-plasma-sdk
     SUBDIR += plasma5-khotkeys
     SUBDIR += plasma5-kwrited
+    SUBDIR += plasma5-plasma-sdk
     SUBDIR += pmccabe
     SUBDIR += pmd
     SUBDIR += poco
@@ -5980,6 +5980,7 @@
     SUBDIR += rvm
     SUBDIR += sabre
     SUBDIR += safe-iop
+    SUBDIR += samurai
     SUBDIR += sbt
     SUBDIR += scalatest
     SUBDIR += scandoc

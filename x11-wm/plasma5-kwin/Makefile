@@ -1,4 +1,4 @@
-# $FreeBSD: branches/plasma5/KDE/x11-wm/plasma5-kwin/Makefile 13724 2017-03-10 19:28:23Z tcberner $
+# $FreeBSD$
 
 PORTNAME=	kwin
 DISTVERSION=	${KDE_PLASMA_VERSION}
@@ -39,7 +39,8 @@ USE_KDE=	activities activities attica auth breeze codecs \
 USE_LDCONFIG=	yes
 USE_QT5=	concurrent core dbus gui multimedia network qml quick script \
 		sensors testlib uiplugin uitools widgets x11extras xml \
-		buildtools_build qmake_build
+		buildtools_build qmake_build \
+		quickcontrols2_run virtualkeyboard_run
 USE_XORG=	ice sm x11 xcb xext xi
 
 .include <bsd.port.pre.mk>

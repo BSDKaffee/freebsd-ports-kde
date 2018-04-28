@@ -69,6 +69,7 @@ KDE4_BRANCH?=			stable
 KDE_PLASMA_VERSION?=		5.12.4
 KDE_PLASMA_BRANCH?=		stable
 
+# Current KDE frameworks.
 KDE_FRAMEWORKS_VERSION?=	5.45.0
 KDE_FRAMEWORKS_BRANCH?= 	stable
 
@@ -143,7 +144,8 @@ MASTER_SITES?=		KDE/${KDE_APPLICATIONS_BRANCH}/applications/${KDE_APPLICATIONS_V
 DOCSDIR=		${PREFIX}/share/doc
 PORTDOCS?=		HTML/*
 # Further pass along a SHLIB_VER PLIST_SUB
-PLIST_SUB+=		KDE_APPLICATIONS_SHLIB_VER=${KDE_APPLICATIONS_SHLIB_VER}
+PLIST_SUB+=		KDE_APPLICATIONS_SHLIB_VER=${KDE_APPLICATIONS_SHLIB_VER} \
+			KDE_APPLICATIONS_VERSION_SHORT="${KDE_APPLICATIONS_VERSION:R:R}"
 .      endif
 DIST_SUBDIR?=		KDE/applications/${KDE_APPLICATIONS_VERSION}
 .    elif ${_KDE_CATEGORY:Mkde-plasma}
@@ -253,7 +255,7 @@ _USE_FRAMEWORKS_TIER2=	activities-stats auth completion crash doctools \
 			filemetadata kimageformats jobwidgets notifications \
 			package pty unitconversion
 
-_USE_FRAMEWORKS_TIER3=	activities baloo5 bookmarks configwidgets \
+_USE_FRAMEWORKS_TIER3=	activities activities-stats baloo5 bookmarks configwidgets \
 			designerplugin emoticons globalaccel guiaddons \
 			iconthemes init kcmutils kdeclarative \
 			kded kdesu kdewebkit kio newstuff notifyconfig parts \
@@ -283,7 +285,7 @@ _USE_PLASMA_ALL=	activitymanagerd breeze breeze-gtk \
 			kscreenlocker ksshaskpass ksysguard kwallet-pam \
 			kwayland-integration kwin kwrited libkscreen \
 			libksysguard milou oxygen plasma-desktop \
-			plasma-integration plasma-mediacenter plasma-pa \
+			plasma-integration plasma-pa \
 			plasma-sdk plasma-workspace plasma-workspace-wallpapers \
 			polkit-kde-agent-1 powerdevil systemsettings \
 			user-manager
@@ -704,9 +706,6 @@ plasma-desktop_PATH=	${KDE_PREFIX}/bin/krdb
 plasma-integration_PORT=	x11/plasma5-plasma-integration
 plasma-integration_PATH=	${QT_PLUGINDIR}/platformthemes/KDEPlasmaPlatformTheme.so
 
-plasma-mediacenter_PORT=	multimedia/plasma5-plasma-mediacenter
-plasma-mediacenter_LIB=		libplasmamediacenter.so.5
-
 plasma-pa_PORT=		audio/plasma5-plasma-pa
 plasma-pa_PATH=		${QT_PLUGINDIR}/kcms/kcm_pulseaudio.so
 
@@ -724,9 +723,6 @@ polkit-kde-agent-1_PATH=	${KDE_PREFIX}/lib/libexec/polkit-kde-authentication-age
 
 powerdevil_PORT=	sysutils/plasma5-powerdevil
 powerdevil_LIB=		libpowerdevilcore.so
-
-syntaxhighlighting_PORT=	textproc/kf5-syntax-highlighting
-syntaxhighlighting_LIB=		libKF5SyntaxHighlighting.so
 
 systemsettings_PORT=	sysutils/plasma5-systemsettings
 systemsettings_PATH=	${KDE_PREFIX}/bin/systemsettings5

@@ -1,4 +1,4 @@
-# $FreeBSD: branches/plasma5/KDE/x11/plasma5-libkscreen/Makefile 13609 2017-01-19 20:38:51Z tcberner $
+# $FreeBSD$
 
 PORTNAME=	libkscreen
 DISTVERSION=	${KDE_PLASMA_VERSION}

@@ -542,7 +542,6 @@
     SUBDIR += kcm-polkit-kde4
     SUBDIR += kcron
     SUBDIR += kcron-kde4
-    SUBDIR += kdebugsettings
     SUBDIR += kdeadmin
     SUBDIR += kdeadmin-kde4
     SUBDIR += kdebugsettings

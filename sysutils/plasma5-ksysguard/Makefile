@@ -1,4 +1,4 @@
-# $FreeBSD: branches/plasma5/KDE/sysutils/plasma5-ksysguard/Makefile 13724 2017-03-10 19:28:23Z tcberner $
+# $FreeBSD$
 
 PORTNAME=	ksysguard
 DISTVERSION=	${KDE_PLASMA_VERSION}

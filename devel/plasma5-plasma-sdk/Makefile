@@ -1,4 +1,4 @@
-# $FreeBSD: branches/plasma5/KDE/devel/plasma5-plasma-sdk/Makefile 13724 2017-03-10 19:28:23Z tcberner $
+# $FreeBSD$
 
 PORTNAME=	plasma-sdk
 DISTVERSION=	${KDE_PLASMA_VERSION}

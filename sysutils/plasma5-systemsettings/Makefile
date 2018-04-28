@@ -1,4 +1,4 @@
-# $FreeBSD: branches/plasma5/KDE/sysutils/plasma5-systemsettings/Makefile 13250 2016-11-06 16:34:10Z tcberner $
+# $FreeBSD$
 
 PORTNAME=	systemsettings
 DISTVERSION=	${KDE_PLASMA_VERSION}

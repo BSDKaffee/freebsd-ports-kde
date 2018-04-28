@@ -1,4 +1,4 @@
-# $FreeBSD: branches/plasma5/KDE/x11/plasma5-kactivitymanagerd/Makefile 13250 2016-11-06 16:34:10Z tcberner $
+# $FreeBSD$
 
 PORTNAME=	kactivitymanagerd
 DISTVERSION=	${KDE_PLASMA_VERSION}

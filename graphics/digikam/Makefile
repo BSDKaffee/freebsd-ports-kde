@@ -1,4 +1,4 @@
-# $FreeBSD: branches/plasma5/PORTS/graphics/digikam/Makefile 13784 2017-03-18 15:45:02Z tcberner $
+# $FreeBSD$
 
 PORTNAME=	digikam
 DISTVERSION=	5.9.0

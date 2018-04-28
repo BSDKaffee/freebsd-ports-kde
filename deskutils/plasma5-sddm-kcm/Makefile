@@ -1,4 +1,4 @@
-# $FreeBSD: branches/plasma5/KDE/deskutils/plasma5-sddm-kcm/Makefile 13601 2017-01-16 23:00:36Z tcberner $
+# $FreeBSD$
 
 PORTNAME=	sddm-kcm
 DISTVERSION=	${KDE_PLASMA_VERSION}
