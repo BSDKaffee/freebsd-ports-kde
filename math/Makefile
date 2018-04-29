@@ -287,7 +287,7 @@
     SUBDIR += kktdirect
     SUBDIR += kmplot
     SUBDIR += kmplot-kde4
-    SUBDIR += labplot-kde4
+    SUBDIR += labplot
     SUBDIR += lambda
     SUBDIR += lapack
     SUBDIR += lapack++
