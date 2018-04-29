@@ -412,7 +412,7 @@
     SUBDIR += kamera-kde4
     SUBDIR += kcolorchooser
     SUBDIR += kcolorchooser-kde4
-    SUBDIR += kcoloredit
+    SUBDIR += kcoloredit-kde4
     SUBDIR += kdegraphics
     SUBDIR += kdegraphics-kde4
     SUBDIR += kdegraphics-mobipocket
@@ -426,7 +426,7 @@
     SUBDIR += kf5-kimageformats
     SUBDIR += kf5-kplotting
     SUBDIR += kf5-prison
-    SUBDIR += kgraphviewer-kde4
+    SUBDIR += kgraphviewer
     SUBDIR += kiconedit-kde4
     SUBDIR += kimagemapeditor
     SUBDIR += kipi-plugin-acquireimages-kde4
@@ -481,7 +481,6 @@
     SUBDIR += kpovmodeler-kde4
     SUBDIR += kqtquickcharts-kde4
     SUBDIR += krita
-    SUBDIR += ksaneplugin
     SUBDIR += ksaneplugin-kde4
     SUBDIR += ksnapshot-kde4
     SUBDIR += kudu
@@ -536,16 +535,13 @@
     SUBDIR += libkdcraw-kde4
     SUBDIR += libkexiv2
     SUBDIR += libkexiv2-kde4
-    SUBDIR += libkface
     SUBDIR += libkface-kde4
     SUBDIR += libkipi
     SUBDIR += libkipi-kde4
-    SUBDIR += libkipiplugins
     SUBDIR += libkipiplugins-kde4
     SUBDIR += libksane
     SUBDIR += libksane-kde4
     SUBDIR += libkscreen-kde4
-    SUBDIR += libkscreen
     SUBDIR += liblqr-1
     SUBDIR += liblug
     SUBDIR += libmng
