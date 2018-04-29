@@ -370,7 +370,6 @@
     SUBDIR += kio-audiocd-kde4
     SUBDIR += kmix
     SUBDIR += kmix-kde4
-    SUBDIR += kscd
     SUBDIR += kscd-kde4
     SUBDIR += ksmp3play
     SUBDIR += kstreamripper
