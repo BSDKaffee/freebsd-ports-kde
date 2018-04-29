@@ -513,7 +513,6 @@
     SUBDIR += klines
     SUBDIR += klines-kde4
     SUBDIR += klondike
-    SUBDIR += klondike-kde4
     SUBDIR += kmahjongg
     SUBDIR += kmahjongg-kde4
     SUBDIR += kmines
@@ -522,7 +521,6 @@
     SUBDIR += knavalbattle-kde4
     SUBDIR += knetwalk
     SUBDIR += knetwalk-kde4
-    SUBDIR += knights
     SUBDIR += knights-kde4
     SUBDIR += kobodeluxe
     SUBDIR += kolf
@@ -779,7 +777,6 @@
     SUBDIR += pachi
     SUBDIR += pacmanarena
     SUBDIR += paintown
-    SUBDIR += pairs
     SUBDIR += pairs-kde4
     SUBDIR += palapeli
     SUBDIR += palapeli-kde4
