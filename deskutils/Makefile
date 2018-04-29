@@ -19,7 +19,6 @@
     SUBDIR += bigyear
     SUBDIR += bijiben
     SUBDIR += bitcollider
-    SUBDIR += blogilo
     SUBDIR += cairo-dock
     SUBDIR += cairo-dock-plugins
     SUBDIR += caja-extensions
@@ -138,7 +137,6 @@
     SUBDIR += kdeconnect
     SUBDIR += kdeconnect-kde-kf5
     SUBDIR += kdepim
-    SUBDIR += kdepim4
     SUBDIR += kdepim-addons
     SUBDIR += kdepim-apps-libs
     SUBDIR += kdepim-kde4
