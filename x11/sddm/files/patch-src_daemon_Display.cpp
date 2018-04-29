@@ -2,7 +2,7 @@ VirtualTerminal for Wayland is only present on Linux at the moment.
 As we are only interested in an X11 session at the moment, we therefore
 can hide it behind a Q_OS_LINUX.
 
---- src/daemon/Display.cpp.orig	2016-08-28 11:54:03 UTC
+--- src/daemon/Display.cpp.orig	2017-12-05 16:00:16 UTC
 +++ src/daemon/Display.cpp
 @@ -30,7 +30,9 @@
  #include "Greeter.h"
@@ -14,7 +14,7 @@ can hide it behind a Q_OS_LINUX.
  
  #include <QDebug>
  #include <QFile>
-@@ -280,8 +282,10 @@ namespace SDDM {
+@@ -310,8 +312,10 @@ namespace SDDM {
  
          // create new VT for Wayland sessions otherwise use greeter vt
          int vt = terminalId();
@@ -25,7 +25,7 @@ can hide it behind a Q_OS_LINUX.
          m_lastSession.setVt(vt);
  
          QProcessEnvironment env;
-@@ -321,9 +325,11 @@ namespace SDDM {
+@@ -366,9 +370,11 @@ namespace SDDM {
                  stateConfig.Last.Session.setDefault();
              stateConfig.save();
  

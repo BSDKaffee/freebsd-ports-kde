@@ -3,7 +3,7 @@ with '/usr/local/bin' and so on.
 The setting of '$PATH' I find a bit dumb... this should respect the values of the
 users profile...
 
---- src/common/Configuration.h.orig	2016-08-28 11:54:03 UTC
+--- src/common/Configuration.h.orig	2017-12-05 16:00:16 UTC
 +++ src/common/Configuration.h
 @@ -58,11 +58,11 @@ namespace SDDM {
  
@@ -21,7 +21,7 @@ users profile...
              Entry(SessionCommand,      QString,     _S(SESSION_COMMAND),                        _S("Path to a script to execute when starting the desktop session"));
  	    Entry(SessionLogFile,      QString,     _S(".local/share/sddm/xorg-session.log"),   _S("Path to the user session log file"));
  	    Entry(UserAuthFile,        QString,     _S(".Xauthority"),                          _S("Path to the Xauthority file"));
-@@ -72,13 +72,13 @@ namespace SDDM {
+@@ -73,14 +73,14 @@ namespace SDDM {
          );
  
          Section(Wayland,
@@ -29,10 +29,11 @@ users profile...
 +            Entry(SessionDir,          QString,     _S("/usr/local/share/wayland-sessions"),          _S("Directory containing available Wayland sessions"));
              Entry(SessionCommand,      QString,     _S(WAYLAND_SESSION_COMMAND),                _S("Path to a script to execute when starting the desktop session"));
  	    Entry(SessionLogFile,      QString,     _S(".local/share/sddm/wayland-session.log"),_S("Path to the user session log file"));
+             Entry(EnableHiDPI,         bool,        false,                                      _S("Enable Qt's automatic high-DPI scaling"));
          );
  
          Section(Users,
--            Entry(DefaultPath,         QString,     _S("/bin:/usr/bin:/usr/local/bin"),         _S("Default $PATH for logged in users"));
+-            Entry(DefaultPath,         QString,     _S("/usr/local/bin:/usr/bin:/bin"),         _S("Default $PATH for logged in users"));
 +            Entry(DefaultPath,         QString,     _S("/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin"),         _S("Default $PATH for logged in users"));
              Entry(MinimumUid,          int,         UID_MIN,                                    _S("Minimum user id for displayed users"));
              Entry(MaximumUid,          int,         UID_MAX,                                    _S("Maximum user id for displayed users"));
