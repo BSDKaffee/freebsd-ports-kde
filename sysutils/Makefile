@@ -553,10 +553,7 @@
     SUBDIR += kf5-baloo
     SUBDIR += kf5-kwallet
     SUBDIR += kfilemetadata-kde4
-    SUBDIR += kfilereplace
     SUBDIR += kfloppy
-    SUBDIR += kfloppy-kde4
-    SUBDIR += khelpcenter
     SUBDIR += kfloppy-kde4
     SUBDIR += khelpcenter
     SUBDIR += kiconvtool
@@ -903,7 +900,7 @@
     SUBDIR += pmt
     SUBDIR += policykit
     SUBDIR += policykit-gnome
-    SUBDIR += policykit-qt-kde4
+    SUBDIR += policykit-qt
     SUBDIR += polkit
     SUBDIR += polkit-gnome
     SUBDIR += polkit-kde-kde4

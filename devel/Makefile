@@ -1269,12 +1269,12 @@
     SUBDIR += kdesvn-kde4
     SUBDIR += kdev-php
     SUBDIR += kdev-python
-    SUBDIR += kdevelop-pg-qt
     SUBDIR += kdevelop
     SUBDIR += kdevelop-kde4
-    SUBDIR += kdevelop-kde4-pg-qt
-    SUBDIR += kdevelop-kde4-php
-    SUBDIR += kdevelop-kde4-php-docs
+    SUBDIR += kdevelop-pg-qt
+    SUBDIR += kdevelop-pg-qt-kde4
+    SUBDIR += kdevelop-php-kde4
+    SUBDIR += kdevelop-php-docs-kde4
     SUBDIR += kdevplatform-kde4
     SUBDIR += kf5-extra-cmake-modules
     SUBDIR += kf5-kapidox
@@ -1305,7 +1305,6 @@
     SUBDIR += kf5-solid
     SUBDIR += kf5-threadweaver
     SUBDIR += kickassembler
-    SUBDIR += kio-extras
     SUBDIR += kimwitu
     SUBDIR += kio-extras
     SUBDIR += kore
@@ -5322,7 +5321,6 @@
     SUBDIR += ruby-gems
     SUBDIR += ruby-korundum-kde4
     SUBDIR += ruby-krossruby-kde4
-    SUBDIR += ruby-ncurses
     SUBDIR += ruby-qtruby-kde4
     SUBDIR += ruby-rbprof
     SUBDIR += ruby-sdl

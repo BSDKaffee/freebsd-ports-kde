@@ -75,8 +75,9 @@
     SUBDIR += checkbot
     SUBDIR += chems
     SUBDIR += cherokee
-    SUBDIR += chpasswd
+    SUBDIR += choqok
     SUBDIR += choqok-kde4
+    SUBDIR += chpasswd
     SUBDIR += chromium
     SUBDIR += ckeditor
     SUBDIR += cl-lml
@@ -336,7 +337,6 @@
     SUBDIR += kf5-khtml
     SUBDIR += kf5-kjs
     SUBDIR += kf5-kjsembed
-    SUBDIR += klinkstatus
     SUBDIR += kohana
     SUBDIR += kpartsplugin
     SUBDIR += kplaylist
