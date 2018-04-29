@@ -44,7 +44,6 @@
     SUBDIR += dirac
     SUBDIR += dragon
     SUBDIR += dragon-kde4
-    SUBDIR += dtv
     SUBDIR += dtv-scan-tables
     SUBDIR += dumpmpeg
     SUBDIR += dv2jpg
