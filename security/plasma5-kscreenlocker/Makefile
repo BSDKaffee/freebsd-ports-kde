@@ -26,4 +26,10 @@ USE_XORG=	ice sm x11 xcb xcursor xext xi
 
 SHEBANG_FILES=	updaters/ksreenlocker_5_3_separate_autologin.pl
 
+# of a failure.
+SUB_FILES=     ck-unlock-session
+
+post-install:
+	${INSTALL_SCRIPT} ${WRKDIR}/ck-unlock-session ${STAGEDIR}${PREFIX}/bin
+
 .include <bsd.port.mk>
